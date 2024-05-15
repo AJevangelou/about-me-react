@@ -7,13 +7,12 @@ module.exports = {
     },
     extend:{
       colors:{
-        'purple':{
-          100 : '#a06ba8',
-          200 : '#7d508b',
-          300 : '#5b3a6e',
-          400 : '#3e2a5a',
-          500 : '#2b1e48',
-          }
+        'background': '#0C1821', 
+        'blue-background': '#1B2A41',
+        'blue-foreground': '#324A5F',
+        'light-green': '#A3F7B5',
+        'selected': '#92140C'
+
         },
         keyframes: {
           typing: {

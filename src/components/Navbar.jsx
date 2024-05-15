@@ -1,11 +1,11 @@
 import React from 'react'
-import { navLinks } from '../constants'
+import { navLinks } from '../constants/navLinks'
 import { hamburger } from '../assets/icons'
 
 const Navbar = () => {
   return (
     <React.Fragment>
-        <header className='xl:left-[1.5%] padding-x py-8 absolute z-10 w-full'>
+        <header className=' padding-x py-8 absolute z-10 w-full'>
             <nav className='flex justify-end items-center max-container'>
                 <ul className='flex-1 flex justify-end items-center gap-16 max-lg:hidden'>
                 {navLinks.map((item) => (
