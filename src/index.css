@@ -19,6 +19,7 @@
     max-width: 1440px;
     margin: 0 auto;
   }
+  
 
   .input {
     @apply sm:flex-1 max-sm:w-full text-base leading-normal text-gray-400 pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-gray-400 max-sm:rounded-full;
@@ -26,6 +27,9 @@
 }
 
 @layer utilities {
+  .container{
+    @apply overflow-hidden
+  }
   .padding {
     @apply sm:px-16 px-8 sm:py-24 py-12;
   }
@@ -56,6 +60,15 @@
 
   .info-text {
     @apply text-gray-400 text-lg leading-7;
-    /* @apply font-montserrat text-slate-gray text-lg leading-7; */
+    /* @apply fo
+    nt-montserrat text-slate-gray text-lg leading-7; */
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
   }
 }
